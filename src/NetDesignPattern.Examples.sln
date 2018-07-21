@@ -4,10 +4,128 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorPattern", "DecoratorPattern", "{910A38B5-3A06-4399-8509-5BD942E71D12}"
+	ProjectSection(SolutionItems) = preProject
+		DecoratorPattern\Note.txt = DecoratorPattern\Note.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1", "DecoratorPattern\Example1\Example1.csproj", "{E638D30A-74E1-40AD-BCCF-8EC83A6CCB6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example1", "DecoratorPattern\Example1\Example1.csproj", "{E638D30A-74E1-40AD-BCCF-8EC83A6CCB6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2", "DecoratorPattern\Example2\Example2.csproj", "{E85AE04A-A0DE-465B-9263-2E95A50DB1B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example2", "DecoratorPattern\Example2\Example2.csproj", "{E85AE04A-A0DE-465B-9263-2E95A50DB1B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonPattern", "SingletonPattern", "{EA8B5AD4-51EB-4862-8A42-EC3FB3C76C60}"
+	ProjectSection(SolutionItems) = preProject
+		SingletonPattern\Note.txt = SingletonPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderPattern", "BuilderPattern", "{F08A8049-CD13-485B-AE4C-653C6408A74B}"
+	ProjectSection(SolutionItems) = preProject
+		BuilderPattern\Note.txt = BuilderPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypePattern", "PrototypePattern", "{ED52A79B-C77A-49DD-B0C4-1A77617140B3}"
+	ProjectSection(SolutionItems) = preProject
+		PrototypePattern\Note.txt = PrototypePattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactoryPattern", "AbstractFactoryPattern", "{A8BC74CA-94B6-42B5-8E2A-A5AAF9BE50BE}"
+	ProjectSection(SolutionItems) = preProject
+		AbstractFactoryPattern\Note.txt = AbstractFactoryPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BridgePattern", "BridgePattern", "{E5688AB7-8B77-4830-B43B-046DDBBE197F}"
+	ProjectSection(SolutionItems) = preProject
+		BridgePattern\Note.txt = BridgePattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{EB575395-E75E-47A8-81FC-2A392B9852E6}"
+	ProjectSection(SolutionItems) = preProject
+		AdapterPattern\Note.txt = AdapterPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern", "{F4A5FC82-2AD5-470D-B720-33C82D290C9D}"
+	ProjectSection(SolutionItems) = preProject
+		ChainOfResponsibilityPattern\Note.txt = ChainOfResponsibilityPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandPattern", "CommandPattern", "{F64B02E7-13FB-4512-A0A8-3AF044A8D355}"
+	ProjectSection(SolutionItems) = preProject
+		CommandPattern\Note.txt = CommandPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositePattern", "CompositePattern", "{2DA129DB-1110-4DF1-B8BE-4F3694C8E05D}"
+	ProjectSection(SolutionItems) = preProject
+		CompositePattern\Note.txt = CompositePattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacadePattern", "FacadePattern", "{DF50B380-CE40-4E96-A0F9-FD8293B4F9BB}"
+	ProjectSection(SolutionItems) = preProject
+		FacadePattern\Note.txt = FacadePattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethodPattern", "FactoryMethodPattern", "{AB2D9BCB-B75C-4C5A-AF04-E5397AAAFB91}"
+	ProjectSection(SolutionItems) = preProject
+		FactoryMethodPattern\Note.txt = FactoryMethodPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterpreterPattern", "InterpreterPattern", "{FF9F99AC-F953-42BC-AD2F-B0515EBAE0C7}"
+	ProjectSection(SolutionItems) = preProject
+		InterpreterPattern\Note.txt = InterpreterPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IteratorPattern", "IteratorPattern", "{CD3598DA-B10B-4865-A3D6-8D0F4A0B0240}"
+	ProjectSection(SolutionItems) = preProject
+		IteratorPattern\Note.txt = IteratorPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorPattern", "MediatorPattern", "{F85E759F-05E6-41B1-8573-DD1930716147}"
+	ProjectSection(SolutionItems) = preProject
+		MediatorPattern\Note.txt = MediatorPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MementoPattern", "MementoPattern", "{38296BDF-5182-4834-AE6C-8F90C2DB6331}"
+	ProjectSection(SolutionItems) = preProject
+		MementoPattern\Note.txt = MementoPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverPattern", "ObserverPattern", "{80C4069C-9D5F-468A-8FF2-F565660571F1}"
+	ProjectSection(SolutionItems) = preProject
+		ObserverPattern\Note.txt = ObserverPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProxyPattern", "ProxyPattern", "{C97E6642-42A1-4449-BFDB-74BFC2D97469}"
+	ProjectSection(SolutionItems) = preProject
+		ProxyPattern\Note.txt = ProxyPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StatePattern", "StatePattern", "{E30CD187-79A2-49EC-A67C-365FB3EF5229}"
+	ProjectSection(SolutionItems) = preProject
+		StatePattern\Note.txt = StatePattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StragetyPattern", "StragetyPattern", "{5680FC11-3AC2-4D0F-9243-5495E710D0C2}"
+	ProjectSection(SolutionItems) = preProject
+		StragetyPattern\Note.txt = StragetyPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodPatern", "TemplateMethodPatern", "{32880B56-F309-46D6-B240-922993E308C0}"
+	ProjectSection(SolutionItems) = preProject
+		TemplateMethodPatern\Note.txt = TemplateMethodPatern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VistorPattern", "VistorPattern", "{4A34FE3C-D35A-4B1B-B484-CDDA34BF1DF1}"
+	ProjectSection(SolutionItems) = preProject
+		VistorPattern\Note.txt = VistorPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlyweightPattern", "FlyweightPattern", "{26DF315C-A605-46D3-AD11-5F02EE2749AE}"
+	ProjectSection(SolutionItems) = preProject
+		FlyweightPattern\Note.txt = FlyweightPattern\Note.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFactoryPattern", "SimpleFactoryPattern", "{0F08313E-0039-4BD7-B7D2-70AA1CC95856}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleFactoryPattern\Note.txt = SimpleFactoryPattern\Note.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
