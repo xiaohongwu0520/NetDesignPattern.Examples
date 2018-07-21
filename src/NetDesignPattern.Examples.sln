@@ -127,6 +127,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFactoryPattern", "Sim
 		SimpleFactoryPattern\Note.txt = SimpleFactoryPattern\Note.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "SingletonPattern\Example\Example.csproj", "{A907027B-387E-48A7-8910-0CD6568577EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{E85AE04A-A0DE-465B-9263-2E95A50DB1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E85AE04A-A0DE-465B-9263-2E95A50DB1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E85AE04A-A0DE-465B-9263-2E95A50DB1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A907027B-387E-48A7-8910-0CD6568577EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A907027B-387E-48A7-8910-0CD6568577EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A907027B-387E-48A7-8910-0CD6568577EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A907027B-387E-48A7-8910-0CD6568577EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -148,6 +154,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E638D30A-74E1-40AD-BCCF-8EC83A6CCB6B} = {910A38B5-3A06-4399-8509-5BD942E71D12}
 		{E85AE04A-A0DE-465B-9263-2E95A50DB1B6} = {910A38B5-3A06-4399-8509-5BD942E71D12}
+		{A907027B-387E-48A7-8910-0CD6568577EC} = {EA8B5AD4-51EB-4862-8A42-EC3FB3C76C60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9592747-E11A-4FF8-AD8A-5811DEEF9708}

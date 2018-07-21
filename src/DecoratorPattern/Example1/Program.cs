@@ -7,7 +7,7 @@ namespace Example1
         static void Main(string[] args)
         {
             Beverage beverage = new Espresso();
-            Console.WriteLine(beverage.getDescrption() + Environment.NewLine + "Cost:" + beverage.Cost());
+            Console.WriteLine(beverage.GetDescrption() + Environment.NewLine + "Cost:" + beverage.Cost());
 
             //var mocha = new Mocha(beverage);
             //var mocha2 = new Mocha(mocha);
@@ -18,7 +18,7 @@ namespace Example1
             beverage = new Mocha(beverage);
             beverage = new Soy(beverage);
             beverage = new Whip(beverage);
-            Console.WriteLine(beverage.getDescrption() + Environment.NewLine + "Cost:" + beverage.Cost());
+            Console.WriteLine(beverage.GetDescrption() + Environment.NewLine + "Cost:" + beverage.Cost());
 
 
             Console.WriteLine("Done");
@@ -30,7 +30,7 @@ namespace Example1
     //抽象基类 饮料基类
     public abstract class Beverage
     {
-        public abstract string getDescrption();
+        public abstract string GetDescrption();
 
         public abstract double Cost();
     }
@@ -48,9 +48,9 @@ namespace Example1
             return beverage.Cost();
         }
 
-        public override string getDescrption()
+        public override string GetDescrption()
         {
-            return beverage.getDescrption();
+            return beverage.GetDescrption();
         }
     }
 
@@ -62,7 +62,7 @@ namespace Example1
             return 1.99;
         }
 
-        public override string getDescrption()
+        public override string GetDescrption()
         {
             return "Espresso";
         }
@@ -76,7 +76,7 @@ namespace Example1
             return 0.89;
         }
 
-        public override string getDescrption()
+        public override string GetDescrption()
         {
             return "House Blend Coffee";
         }
@@ -96,9 +96,9 @@ namespace Example1
             return base.Cost() + 0.20;
         }
 
-        public override string getDescrption()
+        public override string GetDescrption()
         {
-            return base.getDescrption() + ",Mocha";
+            return base.GetDescrption() + ",Mocha";
         }
     }
 
@@ -115,9 +115,9 @@ namespace Example1
             return base.Cost() + 0.3;
         }
 
-        public override string getDescrption()
+        public override string GetDescrption()
         {
-            return base.getDescrption() + ",Soy";
+            return base.GetDescrption() + ",Soy";
         }
     }
     //调料类--Whip
@@ -134,9 +134,9 @@ namespace Example1
             return base.Cost() + 0.4;
         }
 
-        public override string getDescrption()
+        public override string GetDescrption()
         {
-            return base.getDescrption() + ",Whip";
+            return base.GetDescrption() + ",Whip";
         }
     }
 }
