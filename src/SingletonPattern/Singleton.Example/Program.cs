@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Example
+namespace Singleton.Example
 {
     class Program
     {

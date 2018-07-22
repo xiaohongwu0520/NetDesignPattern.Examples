@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Example1
+namespace Decorator.Example1
 {
     class Program
     {
