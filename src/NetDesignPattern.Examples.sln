@@ -147,11 +147,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.Example", "AdapterP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge.Example", "BridgePattern\Bridge.Example\Bridge.Example.csproj", "{E2379DBA-00D2-4474-B3E8-88B4EAF032AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Example2", "BridgePattern\Bridge.Example2\Bridge.Example2.csproj", "{9C275CFB-C86D-4B46-B891-FFE8F96F2F0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge.Example2", "BridgePattern\Bridge.Example2\Bridge.Example2.csproj", "{9C275CFB-C86D-4B46-B891-FFE8F96F2F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Example", "CompositePattern\Composite.Example\Composite.Example.csproj", "{7C1F1B62-EA58-4873-8E9D-7F97A169B6E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite.Example", "CompositePattern\Composite.Example\Composite.Example.csproj", "{7C1F1B62-EA58-4873-8E9D-7F97A169B6E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Example", "FacadePattern\Facade.Example\Facade.Example.csproj", "{27B95A97-2D7A-4851-8238-59A1792B9157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Example", "FacadePattern\Facade.Example\Facade.Example.csproj", "{27B95A97-2D7A-4851-8238-59A1792B9157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.Example", "FlyweightPattern\Flyweight.Example\Flyweight.Example.csproj", "{8F04A5A3-B00A-45ED-93CD-1D87F537041C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Example", "CommandPattern\Command.Example\Command.Example.csproj", "{5361144F-3AB1-44DB-8525-F0B4D41B8F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.Example", "ChainOfResponsibilityPattern\ChainOfResponsibility.Example\ChainOfResponsibility.Example.csproj", "{5668B1A7-1C46-4EAE-80B3-7AAEAEC479C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +221,18 @@ Global
 		{27B95A97-2D7A-4851-8238-59A1792B9157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B95A97-2D7A-4851-8238-59A1792B9157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B95A97-2D7A-4851-8238-59A1792B9157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F04A5A3-B00A-45ED-93CD-1D87F537041C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F04A5A3-B00A-45ED-93CD-1D87F537041C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F04A5A3-B00A-45ED-93CD-1D87F537041C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F04A5A3-B00A-45ED-93CD-1D87F537041C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5361144F-3AB1-44DB-8525-F0B4D41B8F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5361144F-3AB1-44DB-8525-F0B4D41B8F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5361144F-3AB1-44DB-8525-F0B4D41B8F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5361144F-3AB1-44DB-8525-F0B4D41B8F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5668B1A7-1C46-4EAE-80B3-7AAEAEC479C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5668B1A7-1C46-4EAE-80B3-7AAEAEC479C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5668B1A7-1C46-4EAE-80B3-7AAEAEC479C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5668B1A7-1C46-4EAE-80B3-7AAEAEC479C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -234,6 +252,9 @@ Global
 		{9C275CFB-C86D-4B46-B891-FFE8F96F2F0F} = {E5688AB7-8B77-4830-B43B-046DDBBE197F}
 		{7C1F1B62-EA58-4873-8E9D-7F97A169B6E6} = {2DA129DB-1110-4DF1-B8BE-4F3694C8E05D}
 		{27B95A97-2D7A-4851-8238-59A1792B9157} = {DF50B380-CE40-4E96-A0F9-FD8293B4F9BB}
+		{8F04A5A3-B00A-45ED-93CD-1D87F537041C} = {26DF315C-A605-46D3-AD11-5F02EE2749AE}
+		{5361144F-3AB1-44DB-8525-F0B4D41B8F41} = {F64B02E7-13FB-4512-A0A8-3AF044A8D355}
+		{5668B1A7-1C46-4EAE-80B3-7AAEAEC479C6} = {F4A5FC82-2AD5-470D-B720-33C82D290C9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9592747-E11A-4FF8-AD8A-5811DEEF9708}
