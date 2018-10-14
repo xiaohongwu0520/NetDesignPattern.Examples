@@ -159,17 +159,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Example", "CommandP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility.Example", "ChainOfResponsibilityPattern\ChainOfResponsibility.Example\ChainOfResponsibility.Example.csproj", "{5668B1A7-1C46-4EAE-80B3-7AAEAEC479C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator.Example", "IteratorPattern\Iterator.Example\Iterator.Example.csproj", "{48096AEC-AA11-44F2-BD17-C53DD7A43A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator.Example", "IteratorPattern\Iterator.Example\Iterator.Example.csproj", "{48096AEC-AA11-44F2-BD17-C53DD7A43A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Example", "ObserverPattern\Observer.Example\Observer.Example.csproj", "{FB7474F3-9E28-4A4D-A00D-F4EFD6CD5479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.Example", "ObserverPattern\Observer.Example\Observer.Example.csproj", "{FB7474F3-9E28-4A4D-A00D-F4EFD6CD5479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Example", "MediatorPattern\Mediator.Example\Mediator.Example.csproj", "{818032B3-A15E-4172-BD16-3538592A78BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Example", "MediatorPattern\Mediator.Example\Mediator.Example.csproj", "{818032B3-A15E-4172-BD16-3538592A78BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Example", "MementoPattern\Memento.Example\Memento.Example.csproj", "{2B1CDF7E-3C18-4610-824F-E32536B70528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento.Example", "MementoPattern\Memento.Example\Memento.Example.csproj", "{2B1CDF7E-3C18-4610-824F-E32536B70528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Example2", "MementoPattern\Memento.Example2\Memento.Example2.csproj", "{F1CB0686-A260-46F2-8627-ABB8DEBFE291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento.Example2", "MementoPattern\Memento.Example2\Memento.Example2.csproj", "{F1CB0686-A260-46F2-8627-ABB8DEBFE291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.Example", "StatePattern\State.Example\State.Example.csproj", "{21AA741C-A0C4-453E-B452-AAA62DAAFCBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State.Example", "StatePattern\State.Example\State.Example.csproj", "{21AA741C-A0C4-453E-B452-AAA62DAAFCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.Example", "TemplateMethodPatern\TemplateMethod.Example\TemplateMethod.Example.csproj", "{A7B17A84-2452-47B8-BBEE-C741F65F4DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistorPattern.Example", "VistorPattern\VistorPattern.Example\VistorPattern.Example.csproj", "{38773B0B-39A7-45B9-A235-26F070146C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StragetyPattern.Example", "StragetyPattern\StragetyPattern.Example\StragetyPattern.Example.csproj", "{388FEC0B-777C-4781-9FAB-17F9C3B98E82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -269,6 +275,18 @@ Global
 		{21AA741C-A0C4-453E-B452-AAA62DAAFCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21AA741C-A0C4-453E-B452-AAA62DAAFCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21AA741C-A0C4-453E-B452-AAA62DAAFCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B17A84-2452-47B8-BBEE-C741F65F4DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B17A84-2452-47B8-BBEE-C741F65F4DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B17A84-2452-47B8-BBEE-C741F65F4DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B17A84-2452-47B8-BBEE-C741F65F4DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38773B0B-39A7-45B9-A235-26F070146C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38773B0B-39A7-45B9-A235-26F070146C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38773B0B-39A7-45B9-A235-26F070146C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38773B0B-39A7-45B9-A235-26F070146C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388FEC0B-777C-4781-9FAB-17F9C3B98E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388FEC0B-777C-4781-9FAB-17F9C3B98E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388FEC0B-777C-4781-9FAB-17F9C3B98E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388FEC0B-777C-4781-9FAB-17F9C3B98E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -297,6 +315,9 @@ Global
 		{2B1CDF7E-3C18-4610-824F-E32536B70528} = {38296BDF-5182-4834-AE6C-8F90C2DB6331}
 		{F1CB0686-A260-46F2-8627-ABB8DEBFE291} = {38296BDF-5182-4834-AE6C-8F90C2DB6331}
 		{21AA741C-A0C4-453E-B452-AAA62DAAFCBF} = {E30CD187-79A2-49EC-A67C-365FB3EF5229}
+		{A7B17A84-2452-47B8-BBEE-C741F65F4DDF} = {32880B56-F309-46D6-B240-922993E308C0}
+		{38773B0B-39A7-45B9-A235-26F070146C33} = {4A34FE3C-D35A-4B1B-B484-CDDA34BF1DF1}
+		{388FEC0B-777C-4781-9FAB-17F9C3B98E82} = {5680FC11-3AC2-4D0F-9243-5495E710D0C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9592747-E11A-4FF8-AD8A-5811DEEF9708}
